@@ -1,0 +1,22 @@
+{
+  "name": "tailwind-css-practice",
+  "version": "1.0.0",
+  "description": "Tailwind CSS practice projects - building UI components before transitioning to shadcn/ui",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --minify"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "ui-components",
+    "practice"
+  ],
+  "author": "Monfort N. Brian <https://github.com/monfortbrian>",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  }
+}
